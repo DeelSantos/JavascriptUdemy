@@ -10,3 +10,13 @@ if(avaliação === 1){
     console.log("Resultado positivo");
     
 }
+
+let enviar_email = true
+let frase = enviar_email ? "enviar" : "não enviar"
+
+console.log(frase);
+
+let valor = 10
+let numero = valor < 5 ? 'Sim' : 'Não'
+
+console.log(numero);
